@@ -11,6 +11,16 @@ CREATE TABLE hotels (
 	websites varchar,
 	average_rating float
 );
+CREATE TABLE hotels_nodupes (
+	address varchar,
+	city varchar,
+	country varchar,
+	name varchar,
+	postalCode varchar,
+	province varchar,
+	websites varchar,
+	average_rating float
+);
 CREATE TABLE one_star (
 	name varchar,
 	city varchar,
